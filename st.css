@@ -1,0 +1,265 @@
+html {
+  overflow-x: hidden;
+  background-image: url(fon.jpg);
+  -webkit-font-smoothing: antialiased;
+  -webkit-background-size: 100%; 
+  -o-background-size: 100%; 
+  background-size: 100%;
+}
+h1{
+     position: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50px;
+    right: 50px;
+    color: white;
+    font-style: italic;
+}
+.dws-wrapper{
+ max-width: 650px;
+ margin: 0 auto;
+}
+ul.accordion{
+ display: flex;
+ justify-content: center;
+ margin-top: 90px;
+ padding: 0;
+}
+ul.accordion li{
+ width: 50px;
+ overflow: hidden;
+ padding: 1px 1px 0;
+ cursor: pointer;
+ display: block;
+ -webkit-box-shadow: 1px 3px 15px #7e807e;
+ -moz-box-shadow: 1px 3px 15px  #7e807e;
+ box-shadow: 1px 3px 15px  #7e807e;
+ -webkit-transition: all 1.5s;
+ -moz-transition: all 1.5s;
+ -ms-transition: all 1.5s;
+ -o-transition: all 1.5s;
+ transition: all 1.5s;
+}
+ul.accordion img{
+ width: 300px;
+}
+ul.accordion li:hover{
+ width: 300px;
+ -webkit-box-shadow: 1px 3px 15px #36c5fa;
+ -moz-box-shadow: 1px 3px 15px #36c5fa;
+ box-shadow: 1px 3px 15px #36c5fa;
+ -webkit-transition: all 1s;
+ -moz-transition: all 1s;
+ -ms-transition: all 1s;
+ -o-transition: all 1s;
+ transition: all 1s;
+}
+ul.accordion li:nth-child(4){
+ width: 300px;
+}
+ul.accordion:hover li:nth-child(4){
+ width: 50px;
+}
+ul.accordion li:nth-child(4):hover{
+ width: 300px;
+}
+
+.imgmain{
+    position: relative;
+ display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -webkit-align-items: stretch;
+    -webkit-justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+.img1{
+    border: 10px solid #fff;
+ border-bottom: 45px solid #fff;
+ -webkit-box-shadow: 3px 3px 3px #777;
+ -moz-box-shadow: 3px 3px 3px #777;
+ box-shadow: 3px 3px 3px #777;
+    background: white;
+}
+.img1 p {
+ position: relative;
+ text-align: center;
+ width: 100%;
+ bottom: 0px;
+ font: 400 18px/1 'Kaushan Script', cursive;
+ color: #888;
+}
+.vignette {
+ background: url("6.jpg") 100% 100% no-repeat;
+    background-size: cover;
+ width: 500px; height: 500px;
+ -webkit-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ -moz-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+}
+.vignette1 {
+ background: url("8.jpg")100% 100% no-repeat;
+    background-size: cover;
+ width: 500px; height: 500px;
+ -webkit-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ -moz-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+}
+.vignette2 {
+ background: url("23.jpg")100% 100% no-repeat;
+    background-size: cover;
+ width: 500px; height: 500px;
+ -webkit-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ -moz-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+}
+.vignette3 {
+ background: url("28.jpg")100% 100% no-repeat;
+    background-size: cover;
+ width: 500px; height: 500px;
+ -webkit-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ -moz-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+}
+.vignette4 {
+ background: url("29.jpg")100% 100% no-repeat;
+    background-size: cover;
+ width: 500px; height: 500px;
+ -webkit-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ -moz-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+}
+.vignette5 {
+ background: url("30.jpg")100% 100% no-repeat;
+    background-size: cover;
+ width: 500px; height: 500px;
+ -webkit-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ -moz-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+}
+.vignette6 {
+ background: url("31.jpg")100% 100% no-repeat;
+    background-size: cover;
+ width: 500px; height: 500px;
+ -webkit-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ -moz-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+}
+.vignette7 {
+ background: url("32.jpg")100% 100% no-repeat;
+    background-size: cover;
+ width: 500px; height: 500px;
+ -webkit-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ -moz-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+}
+.vignette8 {
+ background: url("33.jpg")100% 100% no-repeat;
+    background-size: cover;
+ width: 500px; height: 500px;
+ -webkit-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ -moz-box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+ 
+ box-shadow:
+ inset 0 0 50px #000,
+ inset 0 0 50px #000,
+ inset 0 0 50px #000;
+}
